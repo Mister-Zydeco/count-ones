@@ -29,5 +29,16 @@ problem, which seems a little odd to me.  We provide a description of the
 algorithm including some discussion of computational complexity, a
  source file impelementing the algorithm, and a unit test file
 which verifies that the one-liner and our more efficient function provide
-the same answer for several hundred values of $n$ less than 1,000,000.
+the same answer for a couple of hundred values of $n$ less than 1,000,000.
 
+There is a lot of stuff here to support sphinx, which I used to write
+docs/source/algorithm.rst. The files of real interest to us are
+count_ones.py, test/count_ones_test.py, this README, and
+docs/_build/html/algorithms.html.
+
+To run the unit tests, clone this repository, go to the test
+subdirectory of the top-level directory, and run
+
+```
+$ PYTHONPATH=.. python count_ones_test.py
+```
