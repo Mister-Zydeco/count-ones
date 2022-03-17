@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CountOnes'
+project = 'count-ones'
 copyright = '2022, dnadler'
 author = 'dnadler'
 

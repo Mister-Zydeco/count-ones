@@ -1,6 +1,4 @@
----
-title: Counting occurrences of 1s in digits in a range
----
+# count-ones
 
 Given a positive integer $n$, how many times does the digit 1
 occur in the decimal expansions integers $k with $1 \le k \le n$ ?
